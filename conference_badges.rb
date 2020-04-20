@@ -3,9 +3,11 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
   
-  def batch_badge_creator(names)
-  binding.pry
-  return "Hello, my name is "
+def batch_badge_creator(names)
+  names.each do |temp_name|
+    badge_maker(temp_name)
+  end  
+  
 end
 
 
