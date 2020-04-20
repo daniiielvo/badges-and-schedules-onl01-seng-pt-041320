@@ -7,6 +7,5 @@ end
   return 
 end
 
-assign_rooms
 
   
