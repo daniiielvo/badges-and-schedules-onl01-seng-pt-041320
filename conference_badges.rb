@@ -11,7 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
+  rooms=[]
   speakers.each_with_index do |name, index| 
-    return "Hello, #{names}! You'll be assigned to room #{rooms}!"
+     "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
 end
