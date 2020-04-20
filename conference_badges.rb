@@ -7,6 +7,6 @@ end
   return batch_badge_creator
 end
 
-
+assign_rooms
 
   
