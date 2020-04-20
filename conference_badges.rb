@@ -13,3 +13,4 @@ def assign_rooms(rooms)
   rooms.each do |names| 
     puts "Hello,{names} You'll be assigned to room {rooms}!"
   end
+end
