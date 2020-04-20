@@ -7,6 +7,8 @@ def batch_badge_creator(names)
   names.collect do |temp_name|
     badge_maker(temp_name)
   end  
+  
+end
 
 def assign_rooms(rooms)
   rooms = []
